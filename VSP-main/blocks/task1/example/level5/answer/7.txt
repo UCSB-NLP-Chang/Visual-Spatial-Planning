@@ -1,0 +1,7 @@
+The input contains 5 blocks in 4 stacks. From left to right:
+- Stack 1 has 1 level.Level 1 has a purple block.
+- Stack 2 has 1 level.Level 1 has a yellow block.
+- Stack 3 has 1 level.Level 1 has a blue block.
+- Stack 4 has 2 level. From bottom to top: level 1 has an green block, level 2 has an red block,
+As such, for the question "What is the color of the block at stack 4, level 2?", the correct answer is "<Output> red".
+<Output> red

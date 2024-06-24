@@ -1,0 +1,5 @@
+What is the spatial relation betweeen the orange block and the green block?
+(A) The orange block is directly above the green block, and they are in the same stack.
+(B) The orange block is directly below the green block, and they are in the same stack.
+(C) The orange block and the green block are at different stacks.
+(D) At least one of the orange block and the green block does not exist in the presented configurations.

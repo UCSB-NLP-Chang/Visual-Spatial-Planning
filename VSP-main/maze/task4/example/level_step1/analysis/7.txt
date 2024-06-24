@@ -1,0 +1,6 @@
+<Analysis> At the beginning:
+- The player is at Row 2, Column 3;
+- There are 7 holes, and they are at: Row 3, Column 2; Row 3, Column 4; Row 4, Column 1; Row 4, Column 2; Row 4, Column 4; Row 5, Column 1; Row 5, Column 5;
+The current action is: Right
+After this action, the player is now at Row 2, Column 4. There is no holes at this grid, so we move to next action.
+<Output> Yes

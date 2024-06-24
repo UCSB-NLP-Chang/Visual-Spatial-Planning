@@ -1,0 +1,50 @@
+You are a robot that sorts and organizes colored blocks by adding and removing them to stacks.
+You can move them between stacks to produce a desired end state.
+
+In this task, you will see two photos of blocks. These photos show the beginning and end state of the blocks. Your task is to find a shortest movement plan to transit from the beginning state to the end state. Since coding is not within your skill set, your approach relies on logical reasoning of the map.
+
+## Game Setup
+- The stacks of blocks are presented in images. You must view and interpret the image in order to determine which blocks are in which stack and determine how to move them.
+- Each block has a unique color (blue, yellow, purple, orange, red, green).
+- Blocks are stacked vertically in a stack, forming multiple stacks. All stacks are on the table.
+- In a single move, you can only move the top block of any pile. Attempting to move lower blocks is considered an invalid move.
+- You can either (a) move the top block to the top of another stack, or (b) place the top block on the table, creating a new stack with just one block.
+
+We provide an example to further illustrate the rules:
+
+<IMAGE-1>
+
+This example features four blocks arranged in three stacks:
+- Stack 1: Purple block (alone)
+- Stack 2: Blue block (alone)
+- Stack 3: From bottom to top: Orange block, Red block
+You can only move the top block of each stack: the purple block, the blue block, and the red block. The orange block is stuck underneath the red block and cannot be moved directly.
+Each move can place the block on another stack or on the table (creating a new stack of one).  For instance, you could move the red block to either the blue stack or the table.
+**Important Note**: The order of the stacks doesn't matter in this game. Two images are considered equivalent as long as the stacks contain the same blocks, regardless of the order in which the stacks appear. For example, an image with stack A on the left and stack B on the right is equivalent to an image with stack B on the left and stack A on the right.
+
+## Procedure and Output
+Your output should follow this format:
+1. First, analyze the starting and ending configurations, including the number of stacks and the blocks in each stack (similar to the example above).
+2. Then, list the moves in a step-by-step manner using the format move(SOURCE, TARGET). Remember, "SOURCE" refers to the block being moved (always the top block of a stack), and "TARGET" refers to the destination (another stack or the table).
+
+## Example Output
+<Analysis> 
+Starting state: there are three stacks:
+- Stack 1: Purple block (alone)
+- Stack 2: Blue block (alone)
+- Stack 3: From bottom to top: Orange block, Red block
+Ending state: there are three stacks:
+- Stack 1: Purple block (alone)
+- Stack 2: From bottom to top: Orange block, Blue block
+- Stack 3: Red block (alone)
+<Output>
+1. move(red,table)
+2. move(blue,orange)
+
+Now please generate moving plan. The beginning state is:
+
+<TEST-IMAGE-1>
+
+The end state is:
+
+<TEST-IMAGE-2>

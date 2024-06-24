@@ -1,0 +1,67 @@
+In this task, you will analyze a maze presented in an image. Later, you will be presented with four choices, each offering a textual representation of a candidate maze. You will need to choose the representation that exactly reflects the contents of the given image.
+The following figure illustrates the appearances of the player, holes, lands, and the goal within the maze in the image.
+
+<IMAGE-1>
+
+This is how the player, the holes (non-safe grid), the lands (safe grids), and the goals look like in a map:
+- The player is represented as "@"
+- The hole is represented as "#"
+- The safe grid is represented as "_"
+- The goal is represented as "*"
+- If the player is at the goal (at this case the game is solved), that grid is represented as "%"
+
+We provide an example to illustrate how to interpret the input, candidates, and answer the question. Here is the image input:
+
+<IMAGE-2>
+
+Here are the textual candidates:
+
+(A)
+| | Col 1 | Col 2 | Col 3 |
+| Row 1 | # | _ | _ |
+| Row 2 | # | @ | # |
+| Row 3 | _ | * | _ |
+
+(B)
+| | Col 1 | Col 2 | Col 3 | Col 4 | Col 5 |
+| Row 1 | _ | _ | _ | _ | _ |
+| Row 2 | _ | # | _ | _ | _ |
+| Row 3 | _ | # | * | _ | # |
+| Row 4 | _ | @ | _ | _ | _ |
+| Row 5 | _ | _ | _ | # | _ |
+
+(C)
+| | Col 1 | Col 2 | Col 3 | Col 4 |
+| Row 1 | @ | # | _ | _ |
+| Row 2 | _ | _ | _ | _ |
+| Row 3 | _ | _ | _ | _ |
+| Row 4 | # | _ | _ | * |
+
+(D)
+| | Col 1 | Col 2 | Col 3 | Col 4 |
+| Row 1 | _ | _ | _ | _ |
+| Row 2 | * | _ | _ | _ |
+| Row 3 | @ | _ | # | _ |
+| Row 4 | _ | _ | _ | # |
+
+Here is an example of how to analyze and answer the question:
+- First, we focus on the difference of the maze shape between the candidates and the input image.
+- We begin by examining the input image. It is a 4-by-4 maze. We then review the candidates. Candidate A is a 3-by-3 maze. Therefore, it is not the correct answer. Similarly, Candidate B is a 5-by-5 maze, which also cannot be correct. Both Candidate C and Candidate D are 4-by-4 mazes. Now we only need to choose from them.
+- For the remaining candidates, we compare the positions of the players, goals, and the holes in the maze.
+- We first check the input image. What is the position of the player in the image? The player is in row 1, column 1. We then check the remaining candidates. For Candidate C, the textual representation indicates the player is also at row 1, column 1, matching the input image. For Candidate D, the player is located at row 3, column 1. Hence, Candidate D is not the correct answer.
+- We double check the remaining Candidate C, and it correctly shows the position of the player, holes, and the goal. It is therefore the correct answer.
+<Answer> C
+
+Your output should consist of two parts:
+1. First, analysis the input image and candidates similar to the reasoning process above.
+2. Following the reasoning process, output answer as "<Answer> <Choice>", where "<Choice>" is one of {A,B,C,D}.
+Important: Note that there will be only one correct answer. If you find no answer or multiple answers, you must go back and recheck your reasoning process. You are not allowed to provide 0 or more than 1 answer.
+
+Now answer the question below. Here is the image input:
+
+<TEST-IMAGE>
+
+Here are the textual candidates:
+
+<CANDIDATES>
+

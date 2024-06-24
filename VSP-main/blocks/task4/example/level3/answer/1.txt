@@ -1,0 +1,19 @@
+<Analysis> Now the current block configuration is:
+- Stack with orange block
+- Stack with blue block
+- Stack with green block
+- Stack with purple block
+- Stack with red block
+The action "move(red,orange)" is valid. We execute this action.
+Now the current block configuration is:
+- Stack with orange block, red block, from bottom to top
+- Stack with blue block
+- Stack with green block
+- Stack with purple block
+The action "move(purple,red)" is valid. We execute this action.
+Now the current block configuration is:
+- Stack with orange block, red block, purple block, from bottom to top
+- Stack with blue block
+- Stack with green block
+The action "move(blue,green)" is valid. We execute this action.
+<Output> Yes

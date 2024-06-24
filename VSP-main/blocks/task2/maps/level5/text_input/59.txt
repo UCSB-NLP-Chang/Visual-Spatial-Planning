@@ -1,0 +1,5 @@
+What is the spatial relation betweeen the green block and the red block?
+(A) The green block is directly above the red block, and they are in the same stack.
+(B) The green block is directly below the red block, and they are in the same stack.
+(C) The green block and the red block are at different stacks.
+(D) At least one of the green block and the red block does not exist in the presented configurations.

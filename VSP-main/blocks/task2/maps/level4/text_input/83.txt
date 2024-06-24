@@ -1,0 +1,5 @@
+What is the spatial relation betweeen the yellow block and the red block?
+(A) The yellow block is directly above the red block, and they are in the same stack.
+(B) The yellow block is directly below the red block, and they are in the same stack.
+(C) The yellow block and the red block are at different stacks.
+(D) At least one of the yellow block and the red block does not exist in the presented configurations.

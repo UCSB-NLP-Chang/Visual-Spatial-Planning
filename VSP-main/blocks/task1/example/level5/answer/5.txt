@@ -1,0 +1,4 @@
+The input contains 5 blocks in 1 stacks. From left to right:
+- Stack 1 has 5 level. From bottom to top: level 1 has an yellow block, level 2 has an orange block, level 3 has an purple block, level 4 has an blue block, level 5 has an green block,
+As such, for the question "What is the color of the block at stack 1, level 2?", the correct answer is "<Output> orange".
+<Output> orange

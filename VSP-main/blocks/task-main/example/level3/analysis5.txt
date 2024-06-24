@@ -1,0 +1,10 @@
+<Analysis>
+Starting state: there are 2 stacks:
+- Stack 1: blue block, yellow block, from bottom to top
+- Stack 2: green block, orange block, purple block, from bottom to top
+Ending state: there are 5 stacks:
+- Stack 1: orange block (alone)
+- Stack 2: purple block (alone)
+- Stack 3: blue block (alone)
+- Stack 4: green block (alone)
+- Stack 5: yellow block (alone)

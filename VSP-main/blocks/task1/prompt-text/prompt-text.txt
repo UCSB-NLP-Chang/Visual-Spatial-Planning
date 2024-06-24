@@ -1,0 +1,28 @@
+In this task, you will see a photo of blocks. You will analyze the block configuration and then answer a question regarding the color of blocks in a specific place. Since coding is not within your skill set, your approach relies on logical reasoning.
+
+## Game Setup
+- Each block has a unique color (blue, yellow, purple, orange, red, green).
+- Blocks are stacked vertically in a stack, forming multiple stacks.
+- In the questions, the position of the blocks is represented as "Stack s, Level l". The stack number is counted from left to right, and the level number is counted from bottom to top.
+
+We provide an example to further illustrate the setting:
+
+<IMAGE-1>
+
+In this example, there are four blocks in three stacks. From left to right:
+- Stack 1 has one level. Level 1 contains a purple block.
+- Stack 2 has one level. Level 1 contains a blue block.
+- Stack 3 has one level. From bottom to top: level 1 has an orange block, and level 2 has a red block.
+
+As such, for the question "What is the color of the block at stack 3, level 1?", the correct answer is "<Output> orange".
+
+## Procedure and Output
+Your output should follow this format: 
+1. First, analyze the block configuration;
+2. Then, answer the question with the format <Output> <Color>, where <Color> is one of (blue, yellow, purple, orange, red, green). For example, "<Output> red".
+
+Now please answer the following question based on the given image below:
+
+<QUESTION>
+
+<TEST-IMAGE>

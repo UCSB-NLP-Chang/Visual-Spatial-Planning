@@ -1,0 +1,5 @@
+The input contains 5 blocks in 2 stacks. From left to right:
+- Stack 1 has 1 level. Level 1 has a orange block.
+- Stack 2 has 4 level. From bottom to top: level 1 has an green block, level 2 has an red block, level 3 has an purple block, level 4 has an blue block,
+As such, for the question "What is the spatial relation betweeen the yellow block and the orange block?",since the yellow block does not exist in the demonstrated configurations, the correct answer is "<Output> D".
+<Output> D

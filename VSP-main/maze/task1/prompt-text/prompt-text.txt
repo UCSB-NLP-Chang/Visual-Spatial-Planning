@@ -1,0 +1,23 @@
+In this task, you will analyze a maze to determine if there is a hole in a specific position.
+The following figure illustrates the appearances of the player, holes, lands, and the goal within the maze. You will need to focus on the appearance of the hole.
+
+<IMAGE-1>
+
+Here is an example to illustrate how to analyze and answer the question:
+
+<IMAGE-2>
+
+Example question: Is there a hole in row 3, column 3?
+
+In this example:
+- We check the position in row 3, column 3.
+- According to the image, it is a land square. It does not contain a hole.
+- Therefore, you will output "<Output> No".
+
+Your output should be: "<Output> No" or "<Output> Yes", depending on whether there is a hole at the specified position.
+
+Now you will analyze the following maze and answer the question: 
+
+<TEST-IMAGE>
+
+<QUESTION>

@@ -1,0 +1,10 @@
+<Analysis> Now the current block configuration is:
+- Stack with blue block, yellow block, from bottom to top
+- Stack with green block, orange block, purple block, from bottom to top
+The action "move(purple,table)" is valid. We execute this action.
+Now the current block configuration is:
+- Stack with blue block, yellow block, from bottom to top
+- Stack with green block, orange block, from bottom to top
+- Stack with purple block
+The action "move(purple,green)" is invalid and cannot be executed, because the green block is below the orange block and is not a valid destination. The action sequence is therefore invalid, so we stop analyzing here.
+<Output> No

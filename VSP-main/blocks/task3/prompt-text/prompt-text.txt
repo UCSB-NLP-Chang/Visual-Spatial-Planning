@@ -1,0 +1,56 @@
+In this task, you will analyze an image containing several stacks of blocks. Later, you will be presented with four choices, each offering a textual representation of a block configuration. You will need to choose the configuration that exactly reflects the contents of the given image.
+
+## Game Setup
+- Each block has a unique color (blue, yellow, purple, orange, red, green).
+- Blocks are stacked vertically in a stack, forming multiple stacks.
+
+This is an image input example:
+
+<IMAGE-1>
+
+This example features four blocks arranged in three stacks:
+- Stack 1: Purple block (alone)
+- Stack 2: Blue block (alone)
+- Stack 3: From bottom to top: Orange block, Red block
+
+Here are examples of textual representations:
+
+(A)
+- Stack with red block, yellow block, from bottom to top
+- Stack with orange block, purple block, green block, from bottom to top
+
+(B)
+- Stack with purple block
+- Stack with blue block
+- Stack with orange block, red block, from bottom to top
+
+(C)
+- Stack with orange block
+- Stack with purple block
+- Stack with blue block
+- Stack with green block, yellow block, from bottom to top
+
+(D)
+- Stack with green block
+- Stack with yellow block, blue block, from bottom to top
+- Stack with red block, orange block, from bottom to top
+
+We can analyze which text representation exactly reflects the configurations in the image accordingly. In this example:
+- The input image has 3 stacks, while Candidate A only has 2 stacks. Therefore, Candidate A is not the correct answer.
+- Similarly, Candidate C has 4 stacks, which also cannot be correct.
+- For Candidate B, the blocks in each stack match what's shown in the image. This is the correct answer.
+- For Candidate D, the blocks in each stack do not match the image. For example, stack 1 in the image has a purple block, and there is no any purple block in Candidate D. So this is incorrect.
+- Therefore, the final answer is B.
+
+## Procedure and Output
+Your output should follow this format:
+1. First, analyze the block configuration in the image and candidates as shown above;
+2. Then, answer the question with the format <Output> <Choice>, where <Choice> is one of {A,B,C,D}. For example, "<Output> A".
+
+Now please choose the correct textual representation based on the given image below:
+
+<TEST-IMAGE>
+
+Here are the textual candidates:
+
+<CANDIDATES>

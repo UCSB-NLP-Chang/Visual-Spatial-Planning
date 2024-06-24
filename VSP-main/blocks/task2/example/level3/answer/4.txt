@@ -1,0 +1,5 @@
+The input contains 3 blocks in 2 stacks. From left to right:
+- Stack 1 has 1 level. Level 1 has a blue block.
+- Stack 2 has 2 level. From bottom to top: level 1 has an green block, level 2 has an purple block,
+As such, for the question "What is the spatial relation betweeen the green block and the purple block?",since the green block is directly below the purple block and they are in the same stack, the correct answer is "<Output> B".
+<Output> B

@@ -1,0 +1,1 @@
+What is the color of the block at stack 4, level 1?

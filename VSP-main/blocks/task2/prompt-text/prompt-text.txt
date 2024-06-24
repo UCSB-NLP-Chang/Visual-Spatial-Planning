@@ -1,0 +1,29 @@
+In this task, you will see a photo of blocks. You will analyze the block configuration and then answer a question regarding the spatial relation of two specified blocks. Since coding is not within your skill set, your approach relies on logical reasoning.
+
+## Game Setup
+- Each block has a unique color (blue, yellow, purple, orange, red, green).
+- Blocks are stacked vertically in a stack, forming multiple stacks.
+- The possible relations of two blocks include: (A) One block is directly above another block, and they are at the same stack; (B) One block is directly below another block, and they are at the same stack; (C) Two blocks are at different blocks; (D) At least one of the asked blocks does not exist in the image.
+
+We provide an example to further illustrate the rules:
+
+<IMAGE-1>
+
+In this example, there are four blocks in three stacks. From left to right:
+- Stack 1: Purple block (alone)
+- Stack 2: Blue block (alone)
+- Stack 3: From bottom to top: Orange block, Red block
+
+We can answer the questiosn regarding the spatial relations accordingly. 
+For example, for the question "What is the spatial relation between the purple block and blue block?", since the purple block and the blue block are at different stacks, we should choose the choice indicating they are at different stacks.
+
+## Procedure and Output
+Your output should follow this format: 
+1. First, analyze the block configuration;
+2. Then, answer the question with the format <Output> <Choice>, where <Choice> is one of {A,B,C,D}. For example, "<Output> A".
+
+Now please answer the following question based on the given image below:
+
+<QUESTION>
+
+<TEST-IMAGE>

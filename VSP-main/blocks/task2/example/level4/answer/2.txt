@@ -1,0 +1,5 @@
+The input contains 4 blocks in 2 stacks. From left to right:
+- Stack 1 has 1 level. Level 1 has a red block.
+- Stack 2 has 3 level. From bottom to top: level 1 has an orange block, level 2 has an purple block, level 3 has an green block,
+As such, for the question "What is the spatial relation betweeen the green block and the orange block?",since the green block is directly above the orange block and they are in the same stack, the correct answer is "<Output> A".
+<Output> A

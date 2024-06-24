@@ -1,0 +1,29 @@
+<Analysis> Now the current block configuration is:
+- Stack with purple block, blue block, yellow block, orange block, red block, from bottom to top
+The action "move(red,table)" is valid. We execute this action.
+Now the current block configuration is:
+- Stack with purple block, blue block, yellow block, orange block, from bottom to top
+- Stack with red block
+The action "move(orange,red)" is valid. We execute this action.
+Now the current block configuration is:
+- Stack with purple block, blue block, yellow block, from bottom to top
+- Stack with red block, orange block, from bottom to top
+The action "move(yellow,table)" is valid. We execute this action.
+Now the current block configuration is:
+- Stack with purple block, blue block, from bottom to top
+- Stack with red block, orange block, from bottom to top
+- Stack with yellow block
+The action "move(blue,table)" is valid. We execute this action.
+Now the current block configuration is:
+- Stack with purple block
+- Stack with red block, orange block, from bottom to top
+- Stack with yellow block
+- Stack with blue block
+The action "move(orange,blue)" is valid. We execute this action.
+Now the current block configuration is:
+- Stack with purple block
+- Stack with red block
+- Stack with yellow block
+- Stack with blue block, orange block, from bottom to top
+The action "move(green,table)" is invalid and cannot be executed, because there is no green blocks. The action sequence is therefore invalid, so we stop analyzing here.
+<Output> No

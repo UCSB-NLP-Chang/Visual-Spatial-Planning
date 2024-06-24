@@ -1,0 +1,6 @@
+First, the block configuration in the input image is as follow:
+- Stack with blue block
+- Stack with orange block
+- Stack with yellow block
+Therefore, we will choose the candidate with 3 stacks and the same configuration as shown above.
+<Output> C

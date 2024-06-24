@@ -1,0 +1,5 @@
+ | Stack 1 | Stack 2 |
+Level 4 | | green |
+Level 3 | | blue |
+Level 2 | | purple |
+Level 1 | orange | red |

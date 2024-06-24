@@ -1,0 +1,23 @@
+In this task, you will analyze a maze to determine the relative positions of the player and the goal.
+The following figure illustrates the appearances of the player, holes, lands, and the goal within the maze. You will need to focus on the player and the goal.
+
+<IMAGE-1>
+
+To describe their relative positions, use the directional indicators from {"Above", "Below", "Left", "Right"}. We provide an example to illustrate how to interpret and describe these positions:
+
+<IMAGE-2>
+
+In this example:
+- We focus on the position of the player and the goal.
+- Rows: The player is at row 1, and the goal is at row 4. Here, the row number is from top to bottom. Comparing player (row=1) with goal (row=4), player is counted first. Therefore, the player is positioned above the target.
+- Columns: The player is at column 1, and the goal is at column 4. Here, the column number is from left to right. Comparing player (column=1) with goal (column=4). Therefore, the player is to the left of the target.
+- Remember that we should answer the player's position with respect to the goal, not the opposite. Therefore, we answer "Above,Left".
+
+Your output should be two parts:
+1. Analyze the rows and columns of the player and the goal like shown above. 
+2. Following your analysis, output answer as "<Output> <Position>". For example, <Output> "Above,Left" means the player is above and to the left of the goal, and <Output> "Below" means the player is below the goal. 
+Note that you should not output "Left" or "Right" if the plyaer and the goal are at the same column, and similarly, you should not output "Above" or "Below" if the player and the goal are at the same row.
+
+Now you will analyze the following maze and determine the relative position of the player in relation to the goal.
+
+<TEST-IMAGE>

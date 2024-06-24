@@ -1,0 +1,5 @@
+First, the block configuration in the input image is as follow:
+- Stack with purple block
+- Stack with yellow block, blue block, orange block, from bottom to top
+Therefore, we will choose the candidate with 2 stacks and the same configuration as shown above.
+<Output> B

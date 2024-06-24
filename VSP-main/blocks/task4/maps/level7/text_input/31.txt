@@ -1,0 +1,7 @@
+1. move(green,table)
+2. move(yellow,table)
+3. move(blue,table)
+4. move(green,blue)
+5. move(purple,green)
+6. move(red,purple)
+7. move(yellow,red)

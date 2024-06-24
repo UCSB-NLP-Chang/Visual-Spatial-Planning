@@ -1,0 +1,4 @@
+<Interpret>
+The player is at row 1, and the goal is at row 4. Remember that row number is counted from top to bottom. Comparing player (row=1) with goal (row=4), player is counted first, meaning player is higher. Therefore, the player is above the goal.
+The player is at column 3, and the goal is at column 3. The player is neither to the left nor to the right of the goal.
+<Output> Above

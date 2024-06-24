@@ -1,0 +1,5 @@
+The input contains 3 blocks in 2 stacks. From left to right:
+- Stack 1 has 1 level. Level 1 has a red block.
+- Stack 2 has 2 level. From bottom to top: level 1 has an yellow block, level 2 has an blue block,
+As such, for the question "What is the spatial relation betweeen the yellow block and the blue block?",since the yellow block is directly below the blue block and they are in the same stack, the correct answer is "<Output> B".
+<Output> B

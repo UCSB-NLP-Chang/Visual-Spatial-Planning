@@ -1,0 +1,5 @@
+What is the spatial relation betweeen the blue block and the purple block?
+(A) The blue block is directly above the purple block, and they are in the same stack.
+(B) The blue block is directly below the purple block, and they are in the same stack.
+(C) The blue block and the purple block are at different stacks.
+(D) At least one of the blue block and the purple block does not exist in the presented configurations.

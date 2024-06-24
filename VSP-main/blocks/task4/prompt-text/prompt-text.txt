@@ -1,0 +1,54 @@
+You are a robot that sorts and organizes colored blocks by adding and removing them to stacks.
+You can move them between stacks to produce a desired end state.
+
+In this task, you will see a photo of blocks. This photo shows the beginning state of the blocks. You will see a photo of blocks. This photo shows the beginning state of the blocks. Meanwhile, you will be provided an action sequence about moving blocks. Your task is to determine if the provided action plan can be successfully executed. Since coding is not within your skill set, your approach relies on logical reasoning of the map.
+
+## Game Setup
+- The block configuration is presented in the image. You must view and interpret the image in order to determine which blocks are in which stack and determine the consequence of moving.
+- Each block has a unique color (blue, yellow, purple, orange, red, green).
+- Blocks are stacked vertically in a stack, forming multiple stacks.
+- A valid action can only move the top block of any stacks. Attempting to move lower blocks is considered an invalid move.
+- For the destination, a valid move can either (a) move the top block to the top of another stack, or (b) place the top block on the table, creating a new stack with just one block.
+
+We provide an example to further illustrate the rules:
+
+<IMAGE-1>
+
+The sequence of actions provided is:
+1. move(red,table)
+2. move(green,table)
+
+In this example, there are four blocks in three stacks. The stacks are:
+- Stack 1: Purple block (alone)
+- Stack 2: Blue block (alone)
+- Stack 3: From bottom to top: Orange block, Red block
+It is valid to move the purple block, the blue block, and the red block, since they are at the top of a stack. It is invalid to move the orange block since it is not at the top of a stack (because it is covered by the red block).
+Each move can place the block on top of another stack or on the table (creating a new stack of one).  For instance, you could move the red block to either the blue stack or the table.
+
+## Procedure and Output
+Your output should follow this format:
+1. First, briefly analyze the block configuration, and check each action step by step to see if the provided step is valid as shown above.
+2. Then, answer the question with the format "<Output> Yes" or "<Output> No" to indicate if the action sequence is valid.
+
+Here is an example for the output:
+<Analysis> In the image, there are three stacks:
+- Stack 1: Purple block (alone)
+- Stack 2: Blue block (alone)
+- Stack 3: From bottom to top: Orange block, Red block
+The first action "move(red,table)" is valid, because the red block is on top of a stack (stack 3 in this case), and the target is "table". After the first action, the state will become:
+- Stack 1: Purple block (alone)
+- Stack 2: Blue block (alone)
+- Stack 3: Orange block (alone)
+- Stack 4: Red block (alone)
+The second action "move(green,table)" is invalid, because there is no green block.
+Therefore, the provided action sequence is invalid.
+<Output> No
+
+Now please determine if the provided action sequence is valid given the following input state:
+
+<TEST-IMAGE>
+
+The action sequence is:
+
+<ACTION-SEQ>
+

@@ -1,0 +1,6 @@
+Please generate the moving plan. The beginning state is:
+- Stack with yellow block
+- Stack with red block, green block, blue block, orange block, from bottom to top
+
+The end state is:
+- Stack with green block, orange block, blue block, yellow block, red block, from bottom to top

@@ -1,0 +1,6 @@
+The input contains 3 blocks in 3 stacks. From left to right:
+- Stack 1 has 1 level.Level 1 has a orange block.
+- Stack 2 has 1 level.Level 1 has a green block.
+- Stack 3 has 1 level.Level 1 has a blue block.
+As such, for the question "What is the color of the block at stack 3, level 1?", the correct answer is "<Output> blue".
+<Output> blue

@@ -1,0 +1,20 @@
+(A)
+- Stack with blue block
+- Stack with green block
+- Stack with red block
+- Stack with purple block
+- Stack with yellow block
+
+(B)
+- Stack with green block, blue block, yellow block, orange block, red block, from bottom to top
+
+(C)
+- Stack with red block
+- Stack with orange block
+- Stack with blue block
+- Stack with yellow block
+- Stack with green block
+
+(D)
+- Stack with red block, purple block, yellow block, green block, blue block, from bottom to top
+
