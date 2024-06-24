@@ -12,7 +12,7 @@
 
 This is the repo of the paper "VSP: Assessing the dual challenges of perception and reasoning in spatial planning tasks for VLMs".
 
-## Intro
+## Introduction
 Vision language models (VLMs) are an exciting emerging class of language models (LMs) that have merged classic LM capabilities with those of image processing systems. However, the ways that these capabilities combine are not always intuitive and warrant direct investigation. One understudied capability in VLMs is \textit{visual spatial planning}---the ability to comprehend the spatial arrangements of objects and devise action plans to achieve desired outcomes in visual scenes. In our study, we introduce VSP, a benchmark that 1) evaluates the spatial planning capability in these models in general, and 2) breaks down the visual planning task into finer-grained sub-tasks, including perception and reasoning, and measure the LMs capabilities in these sub-tasks. Our evaluation shows that both open-source and private VLMs fail to generate effective plans for even simple spatial planning tasks. Evaluations on the fine-grained analytical tasks further reveal fundamental deficiencies in the models’ visual perception and bottlenecks in reasoning abilities, explaining their worse performance in the general spatial planning tasks. We hope our work illuminates future directions for improving VLMs' abilities in spatial planning.
 
 ## Benchmark Access
@@ -42,7 +42,7 @@ Notice that you should include your Gemini API in the code.
 
 ## Acknowledgement
 To implement the two scenarios, we utilize and enhance existing resources from two aspects. For the maze navigation scenario, we leverage [OpenAI's gym](https://gymnasium.farama.org) engine to generate input images. For the blocks world scenario, we sample input images from the [BIRD dataset](https://github.com/ASU-APG/BIRD_Code). The reference for the two works are listed below.
-
+```
 @misc{gokhale2019blocksworld, 
   title={Blocksworld Revisited: Learning and Reasoning to Generate Event-Sequences from Image Pairs}, 
   author={Tejas Gokhale and Shailaja Sampat and Zhiyuan Fang and Yezhou Yang and Chitta Baral}, 
@@ -58,4 +58,4 @@ To implement the two scenarios, we utilize and enhance existing resources from t
   journal={arXiv preprint arXiv:1606.01540},
   year={2016}
 }
-
+```
