@@ -4,7 +4,7 @@
 [Handong Zhao](https://hdzhao.github.io)<sup>2</sup>,
 [Michael Saxon](https://saxon.me)<sup>1</sup>,
 [Trung Bui](https://sites.google.com/site/trungbuistanford/)<sup>2</sup>,
-[William Yang Wang](http://www.cs.ucsb.edu/~william/)<sup>1</sup>，
+[William Yang Wang](http://www.cs.ucsb.edu/~william/)<sup>1</sup>,
 [Yang Zhang](https://mitibmwatsonailab.mit.edu/people/yang-zhang/)<sup>3</sup>,
 [Shiyu Chang](https://code-terminator.github.io/)<sup>1</sup>
 <br>
@@ -16,7 +16,7 @@ This is the repo of the paper "VSP: Assessing the dual challenges of perception 
 Vision language models (VLMs) are an exciting emerging class of language models (LMs) that have merged classic LM capabilities with those of image processing systems. However, the ways that these capabilities combine are not always intuitive and warrant direct investigation. One understudied capability in VLMs is \textit{visual spatial planning}---the ability to comprehend the spatial arrangements of objects and devise action plans to achieve desired outcomes in visual scenes. In our study, we introduce VSP, a benchmark that 1) evaluates the spatial planning capability in these models in general, and 2) breaks down the visual planning task into finer-grained sub-tasks, including perception and reasoning, and measure the LMs capabilities in these sub-tasks. Our evaluation shows that both open-source and private VLMs fail to generate effective plans for even simple spatial planning tasks. Evaluations on the fine-grained analytical tasks further reveal fundamental deficiencies in the models’ visual perception and bottlenecks in reasoning abilities, explaining their worse performance in the general spatial planning tasks. We hope our work illuminates future directions for improving VLMs' abilities in spatial planning.
 
 ## Benchmark Access
-Our benchmark consists of 10 tasks in 2 scenarios (maze navigation, blocks world). You can find the detailed tests under folder ```<SCENARIO>/task*```, where "<SCENARIO>" is one of "maze" and "blocks". For example, ```maze/task-main``` contains original test and evaluation files for the main task in the maze navigation scenario.
+Our benchmark consists of 10 tasks in 2 scenarios (maze navigation, blocks world). You can find the detailed tests under folder ```<SCENARIO>/task*```, where ```<SCENARIO>``` is one of "maze" and "blocks". For example, ```maze/task-main``` contains original test and evaluation files for the main task in the maze navigation scenario.
 
 Each task includes the following contents:
 1. ```maps```. This contains the original test data for the task, including mapped images and text inputs. They are organized by levels of difficulties.
@@ -25,7 +25,7 @@ Each task includes the following contents:
 4. ```example```. This includes the in-context example used in the tasks.
 5. ```test.py``` and ```eval.py```. These files are used as examples of testing and evaluation.
 
-## Test on the benchmark
+## Test on the Benchmark
 Our benchmark is convenient for evaluation. We provide examples for testing on Gemini.
 To run on Gemini, please first build the environment:
 ```bash
