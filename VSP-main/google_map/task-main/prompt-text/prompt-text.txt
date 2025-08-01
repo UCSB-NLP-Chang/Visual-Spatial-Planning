@@ -1,0 +1,35 @@
+As a professional pathfinder, your task is to analyze a map and find a route from the starting location to the goal. Since coding is not within your skill set, your approach relies on logical reasoning of the map.
+
+## Game Setup
+- The game presents a fully observable map.
+- The starting location is marked with blue "S", and the goal is marked with red "G".
+- Your goal is to find a path from the starting location to the goal.
+
+## Moving Rules
+- The action plan involves moves in four directions: 'W' (West), 'E' (east), 'N' (north), or 'S' (south).
+- Each move is along with distances. Distances are measured by how many crossroads passed.
+We provide an example to further illustrate the rules.
+
+<IMAGE-1>
+
+In this provided example:
+- You are now at the northeast of the goal.
+- If you move south by 1 crossroad, you will be at the east of the goal.
+- If you move west by 1 crossroads, you will be at the goal.
+- IMPORTANT: Please ignore the name of the street and avenue. The numbers in the name cannot be used to compute how many crossroads need to be passed.
+
+## Procedure and Output
+Now you will solve the given maze. To solve it, please first analyze the relative spatial relation between the starting point and the goal (for example, southwest). Then, output a path using the format <Direction>: <Number of crossroads passed>. 
+For example:
+<Output>
+1. North: 1
+2. East: 4
+means move north by 1 crossroad, and move east by 4 crossroads.
+<Output>
+1. South: 1
+means move south by 1 crossroad.
+Do not output any extra content after the above aggregated output.
+
+Please output path for the following map:
+
+<TEST-IMAGE-1>

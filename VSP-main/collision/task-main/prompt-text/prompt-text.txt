@@ -1,0 +1,30 @@
+As a professional navigation agent, your task is to analyze a map and determine the time needed for the car and the person passing the goal.
+
+## Game Setup
+- The game presents a fully observable map. There is a person, a car, and a goal on the map.
+- The game further specifies the moving direction of the person and car ("up", "down", "left", "right").
+- Your goal is to determine the time needed for the car and the person passing the goal.
+The following figure shows how the player, the car, and the goals look like.
+
+<IMAGE-1>
+
+We provide an example to further illustrate the rules.
+
+<IMAGE-2>
+
+The car is moving left with speed 1.0 grid per second, and the person is moving up with speed 0.5 grid per second.
+
+In this provided example:
+- The car is 2 grid away from the goal. Given it's time as 1.0 grid per second, the time needed is 2 / 1.0 = 2 seconds.
+- The person is 1 grid away from the goal. Given it's time as 0.5 grid per second, the time needed is 1 / 0.5 = 2 seconds.
+
+## Procedure and Output
+Now you will answer for the following given map. To solve it, analyze the car and the person separately. Then, answer for them separately. For example:
+Car: 2.0
+Person: 2.0
+means car and the person will need 2.0 seconds to pass the goal respectively.
+Do not output any extra content after the above aggregated output.
+
+Please analyze and determine the time needed for the car and the person passing the goal:
+
+<TEST-IMAGE-1>
